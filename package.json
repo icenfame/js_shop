@@ -1,14 +1,11 @@
 {
-	"name": "js_shop",
-	"version": "1.0.0",
-	"description": "",
-	"main": "server.js",
-	"scripts": {
-		"start": "cd client && npm run build && cd.. && node server/server.js",
-		"dev": "nodemon server/server.js",
-		"install": "cd client && npm i && cd.. && cd server && npm i",
-		"build": "cd client && npm run build"
-	},
-	"author": "",
-	"license": "ISC"
+  "name": "js_shop",
+  "version": "1.0.0",
+  "main": "./server.js",
+  "scripts": {
+    "start": "cd ./client && npm run build && cd .. && node ./server/server.js",
+    "dev": "nodemon ./server/server.js",
+    "install": "cd ./client && npm i && cd .. && cd ./server && npm i",
+    "build": "cd ./client && npm run build"
+  }
 }
